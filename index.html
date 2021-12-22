@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-wi
+    dth, initial-scale=1.0">
+    <meta name="author" content="Mohammad Amin Shikhani">
+    <meta name="description" content="Test your basis knowledge in html, css and javascript">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1>Quiz App</h1>
+    <div class="intro">
+        <h2>Choose a language to test your knowledge of</h2>
+        <button class="choose_lang" data-content="html">Html</button>
+        <button class="choose_lang" data-content="css">Css</button>
+        <button class="choose_lang" data-content="javascript">JavaScript</button>
+    </div>
+    <div class="quiz hide">
+        <header>
+            <p>Category: <span class="category"></span></p>
+            <p>Question: <span class="current_question"></span> of <span class="all_questions"></span></p>
+        </header>
+        <main>
+            <h3 class="title"></h3>
+            <div class="answers_area">
+                <div class="answer 0">
+                    <input type="radio" id="answer_1" name="question" checked>
+                    <label id="1" for="answer_1" class="choosen">1</label>
+                </div>
+                <div class="answer 1">
+                    <input type="radio" id="answer_2" name="question">
+                    <label id="2" for="answer_2">2</label>
+                </div>
+                <div class="answer 2">
+                    <input type="radio" id="answer_3" name="question">
+                    <label id="3" for="answer_3">3</label>
+                </div>
+                <div class="answer 3">
+                    <input type="radio" id="answer_4" name="question">
+                    <label id="4" for="answer_4">4</label>
+                </div>
+            </div>
+            <button class="submit">Submit Answer</button>
+        </main>
+    </div>
+    <div class="result hide">
+        <h2 class="result_head"></h2>
+        <hr>
+        <p class="result_text"></p>
+        <p>Your result is: <span class="percent"></span>%</p>
+        <button class="play_again">Play again</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

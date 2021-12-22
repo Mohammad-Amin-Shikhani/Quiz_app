@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;;
+}
+h1 {
+    background-color: rgb(6, 160, 101);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.intro {
+    text-align: center;
+    margin: 30px;
+}
+.intro.hide {
+    display: none;
+}
+.intro h2 {
+    margin-bottom: 20px;
+}
+.intro .choose_lang {
+    border: 0;
+    padding: 10px;
+    background-color: rgb(23, 199, 131);
+    color: white;
+    transition: .5s;
+    cursor: pointer;
+    font-size: 15px;
+}
+.intro .choose_lang:hover {
+    background-color: rgb(18, 221, 143);
+}
+.quiz {
+    box-shadow: 0 0 10px #ccc;
+    padding: 10px;
+    margin: 50px auto 0;
+    background-color: #eee;
+    max-width: 1000px;
+}
+.quiz.hide {
+    display: none;
+}
+.quiz header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: rgb(245, 245, 245);
+    margin: 0 20px;
+}
+p span {
+    font-weight: bold;
+    color: rgb(7, 70, 206);
+}
+main {
+    margin: 20px;
+}
+h3 {
+    color: rgb(7, 70, 206);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+.blue {
+    color: rgb(7, 70, 206);
+}
+.code {
+    background-color: rgb(219, 219, 219);
+    color: rgb(3, 117, 73);
+    padding: 0 5px;
+    text-transform: lowercase;
+}
+.answer {
+    background-color: rgb(245, 245, 245);
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.answer:hover {
+    background-color: rgb(218, 227, 248);
+}
+label {
+    cursor: pointer;
+}
+label.hide{
+    color: rgb(7, 70, 206);
+}
+.choosen {
+    color: rgb(7, 70, 206)
+}
+.submit {
+    border: 0;
+    background-color: rgb(23, 199, 131);
+    width: 100%;
+    padding: 10px 0;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: .2s;
+}
+.submit.disabled {
+    background-color: rgb(202, 202, 202);
+    cursor: no-drop;
+}
+.submit.disabled:hover {
+    background-color: rgb(202, 202, 202);
+}
+.submit:hover {
+    background-color: rgb(18, 221, 143);
+}
+.submit, .answer, header {
+    border-radius: 5px;
+}
+.err_message {
+    color: red;
+}
+.result {
+    background-color: white;
+    height: 90vh;
+    width: 90vw;
+    margin: auto;
+    border: 1px solid #ccc;
+    position: fixed;
+    top: 5vh;
+    left: 5vw;
+    box-shadow: 0 0 200px rgb(104, 103, 103);
+    text-align: center;
+}
+.result h2{
+    margin: 20px 0;
+    color: red;
+    text-transform: capitalize;
+}
+.result hr {
+    width: 70%;
+    margin: auto;
+    border: 0;
+    border-bottom: 1px solid rgb(150, 147, 147);
+}
+.result p {
+    margin: 20px;
+}
+.result button {
+    margin-top: 40px;
+    border: 0;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(6, 160, 101);
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+}
+.result.hide {
+    display: none;
+}
+.result button:hover {
+    background-color: rgb(23, 199, 131);
+}

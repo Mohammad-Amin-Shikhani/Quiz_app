@@ -1,0 +1,89 @@
+[
+    {
+        "category" : "html",
+        "content"  :  [
+            {
+                "title"    : "Why we use &ltbr&gt Element?",
+                "answer_1" : "Defines a comment",
+                "answer_2" : "Defines break line",
+                "answer_3" : "Defines a hyperlink",
+                "answer_4" : "Defines a acronym",
+                "right_answer" : "Defines break line"
+            },
+            {
+                "title"    : "Why we use &lth1&gt Element?",
+                "answer_1" : "Defines a comment",
+                "answer_2" : "Defines the docuemnt type",
+                "answer_3" : "Defines a heading",
+                "answer_4" : "Defines a acronym",
+                "right_answer" : "Defines a heading"
+            },
+            {
+                "title"    : "Why we use &ltstrong&gt Element?",
+                "answer_1" : "Defines a important text",
+                "answer_2" : "Defines the docuemnt type",
+                "answer_3" : "Defines a hyperlink",
+                "answer_4" : "Defines a acronym",
+                "right_answer" : "Defines a important text"
+            }
+        ]
+    },
+    {
+        "category" : "css",
+        "content"  :  [
+            {
+                "title"    : "Why we use {align-content} Property?",
+                "answer_1" : "Specifies the alignment for items inside a flexible container",
+                "answer_2" : "Sets the color of the bottom border",
+                "answer_3" : "Specifies whether an animation should be played forwards, backwards or in alternate cycles",
+                "answer_4" : "Specifies the alignment between the lines inside a flexible container when the items do not use all available space",
+                "right_answer" : "Specifies the alignment for items inside a flexible container"
+            },
+            {
+                "title"    : "Why we use {border-top} Property?",
+                "answer_1" : "Specifies the alignment for items inside a flexible container",
+                "answer_2" : "Sets the color of the bottom border",
+                "answer_3" : "A shorthand property for border-top-width, border-top-style and border-top-color",
+                "answer_4" : "Specifies the alignment between the lines inside a flexible container when the items do not use all available space",
+                "right_answer" : "A shorthand property for border-top-width, border-top-style and border-top-color"
+            },
+            {
+                "title"    : "Why we use {box-shadow} Property?",
+                "answer_1" : "Specifies the alignment for items inside a flexible container",
+                "answer_2" : "Sets the color of the bottom border",
+                "answer_3" : "Specifies whether an animation should be played forwards, backwards or in alternate cycles",
+                "answer_4" : "Attaches one or more shadows to an element",
+                "right_answer" : "Attaches one or more shadows to an element"
+            }
+        ]
+    },
+    {
+        "category" : "javscript",
+        "content"  :  [
+            {
+                "title"    : "Why we use (length) Property?",
+                "answer_1" : "Returns the character at the specified index (position)",
+                "answer_2" : "Allows you to add properties and methods to an object",
+                "answer_3" : "Returns the string's constructor function",
+                "answer_4" : "Returns the length of a string",
+                "right_answer" : "Returns the length of a string"
+            },
+            {
+                "title"    : "Why we use (charAt()) Property?",
+                "answer_1" : "Returns the character at the specified index (position)",
+                "answer_2" : "Allows you to add properties and methods to an object",
+                "answer_3" : "Returns the string's constructor function",
+                "answer_4" : "Returns the length of a string",
+                "right_answer" : "Returns the character at the specified index (position)"
+            },
+            {
+                "title"    : "Why we use (constructor) Property?",
+                "answer_1" : "Returns the character at the specified index (position)",
+                "answer_2" : "Allows you to add properties and methods to an object",
+                "answer_3" : "Returns the string's constructor function",
+                "answer_4" : "Returns the length of a string",
+                "right_answer" : "Returns the string's constructor function"
+            }
+        ]
+    }
+]
